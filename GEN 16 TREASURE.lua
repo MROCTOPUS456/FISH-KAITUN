@@ -57,11 +57,11 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Astral Rod",
     },
     ["WebHook"] = {
-        ["Link Webhook"] = "https://discordapp.com/api/webhooks/1338435443578114048/0j7a_nu7xi8597fwhuP9D_3lJ9AReUmQKicq0obA6Z3CEWqS_s-sT9M67aCK-5_H2krO",
+        ["Link Webhook"] = "",
         ["Auto Sending"] = true,
         ["Category"] = {"Secret"},
 
-        ["Link Webhook Quest Complete"] = "https://discordapp.com/api/webhooks/1441731602114936914/6PU7rJ5GTexNZSo-WCA-qb3qkGE5S99iarbTwMxdGHMvEtDs81KtwhGwlP40mENGWWN8",
+        ["Link Webhook Quest Complete"] = "",
     },
     ["Weather"] = {
         ["Auto Buying"] = true,
@@ -150,6 +150,3 @@ _G.FishItConfig = _G.FishItConfig or {
     ["HideGUI"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
-script_key="21A6F20A29869F10A10CF362B5CAFA33";
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
-local s,r repeat s,r=pcall(function()return game:HttpGet("https://api.wintercode.dev/loader/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
