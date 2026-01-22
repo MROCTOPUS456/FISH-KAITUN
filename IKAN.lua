@@ -130,7 +130,6 @@ _G.FishItConfig = _G.FishItConfig or {
             "Midnight Rod",
             "Astral Rod",
             "Ares Rod",
-            "Angler Rod",
         },
         ["Location Rods"] = {
             ["Fisherman Island"] = {"Starter Rod"},
@@ -150,3 +149,4 @@ _G.FishItConfig = _G.FishItConfig or {
     ["HideGUI"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
+
