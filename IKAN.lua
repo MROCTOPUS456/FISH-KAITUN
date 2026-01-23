@@ -95,19 +95,17 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Enchant"] = {
         ["Auto Enchant"] = true,
-        ["Roll Enchant"] = false,
+        ["Roll Enchant"] = true,
         ["Evolved Roll Enchant"] = false,
         ["Enchant List"] = {
-            "Mutation Hunter II",
+            "Cursed I",
         },
-        ["Second Enchant"] = false,
+        ["Second Enchant"] = true,
         ["Allowed Sacrifice"] = {
-            "Frostborn Shark",
-            "Cryoshade Glider",
+            "Queen Crab",
+            "King Crab",
         },
         ["Second Enchant List"] = {
-            "Reeler I",
-            "Prismatic I",
             "Mutation Hunter II",
         },
         ["Minimum Rod"] = "Ghostfinn Rod",
@@ -134,8 +132,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Location Rods"] = {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
-            ["Treasure Room"] = {"Astral Rod"},
-            ["Tropical Grove"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
+            ["Tropical Grove"] = {"Astral Rod"},
+            ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
         },
         ["Endgame"] = "",
     },
@@ -149,5 +147,6 @@ _G.FishItConfig = _G.FishItConfig or {
     ["HideGUI"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
+
 
 
