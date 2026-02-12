@@ -140,13 +140,14 @@ _G.FishItConfig = _G.FishItConfig or {
 
     ["ExtremeFpsBoost"] = true,
     ["UltimatePerformance"] = false,
-    ["Disable3DRender"] = true,
+    ["Disable3DRender"] = false,
     ["AutoRemovePlayer"] = true,
 
     ["AutoReconnect"] = false,
-    ["HideGUI"] = false,
+    ["HideGUI"] = true,
     ["EXIT_MAP_IF_DISCONNECT"] = true,
 }
+
 
 
 
