@@ -80,6 +80,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Buy List"] = {
             ["Mutation Totem"] = 5,
             "Luck Totem",
+            "Shiny Totem",
         },
     },
     ["Event"] = {
@@ -147,6 +148,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["HideGUI"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = true,
 }
+
 
 
 
