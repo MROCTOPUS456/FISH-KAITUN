@@ -139,7 +139,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Endgame"] = "",
     },
 
-    ["ExtremeFpsBoost"] = false,
+    ["ExtremeFpsBoost"] = true,
     ["UltimatePerformance"] = false,
     ["Disable3DRender"] = false,
     ["AutoRemovePlayer"] = true,
@@ -148,5 +148,6 @@ _G.FishItConfig = _G.FishItConfig or {
     ["HideGUI"] = true,
     ["EXIT_MAP_IF_DISCONNECT"] = true,
 }
+
 
 
