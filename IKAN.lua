@@ -105,6 +105,9 @@ _G.FishItConfig = _G.FishItConfig or {
             "Queen Crab",
             "King Crab",
             "Great Whale",
+            "Skeleton Narwhal",
+            "Blob Shark",
+            "Ghost Shark",
         },
         ["Second Enchant List"] = {
             "Mutation Hunter II",
@@ -132,8 +135,8 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Location Rods"] = {
             ["Fisherman Island"] = {"Starter Rod"},
-            ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
-            ["Tropical Grove"] = {"Astral Rod"},
+            ["Tropical Grove"] = {"Grass Rod", "Midnight Rod"},
+            ["Sisyphus Statue"] = {"Astral Rod"},
             ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
         },
         ["Endgame"] = "",
