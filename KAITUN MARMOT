@@ -1,4 +1,3 @@
-script_key="";
 setfpscap(10)
 
 getgenv().sailorPieceConfig = {  
@@ -29,11 +28,11 @@ getgenv().sailorPieceConfig = {
 
     -- Autotrade
     TRADE_USERNAME = {},
-    TRADE_ITEM = {},
+    TRADE_ITEM = {"Race Reroll", "Clan Reroll", "Mythical Chest", "Aura Crate", "Cosmetic Crate", "Trait Reroll", "Secret Chest"},
 
     -- Discord
     WEBHOOK_ITEM_NAME = { "Aura Crate", "Cosmetic Crate", "Secret Chest" },
-    WEBHOOK_URL = "",
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1489640128463769641/IWV0LxxCuJCDe0e1BSneVKaf-70GniP2BsPEMzbdiU6dWEf8Nrkyeop0ph7Y6TxL62AE",
     DISCORD_ID = "",
     WEBHOOK_NOTE = "",
     SHOW_PUBLIC_DISCORD_ID = true,
@@ -41,4 +40,3 @@ getgenv().sailorPieceConfig = {
     SHOW_WEBHOOK_JOBID = true,
 }   
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/1c7ac2a2f86ecf894218a424a1be7667.lua"))()
