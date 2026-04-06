@@ -14,7 +14,7 @@ getgenv().sailorPieceConfig = {
 
     STAT_POINT_PERCENTAGE = { ["Sword"] = 90, ["Defense"] = 10, ["Melee"] = 0, ["Power"] = 0 },
     USE_ITEM = { "Common Chest", "Rare Chest", "Epic Chest", "Legendary Chest", "Aura Crate (Untradeable)", "Cosmetic Crate (Untradeable)", "Secret Chest (Untradeable)" },
-    BUY_MERCHANT = {},
+    BUY_MERCHANT = {"Race Reroll", "Clan Reroll", "Trait Reroll"},
 
     REROLL_RACE_UNTIL = { "Warlord", "Sunborn", "Servant", "Kitsune", "Swordblessed", "Galevorn", "Leviathan", "Oni", "Slime" },
     REROLL_CLAN_UNTIL = { "Pride", "Monarch", "Alter", "Espada", "Voldigoat", "Eminence", "Upper" },
