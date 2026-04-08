@@ -27,7 +27,7 @@ getgenv().sailorPieceConfig = {
     EQUIP_ARTIFACT_SET = "Abyssal Crown",
 
     -- Autotrade
-    TRADE_USERNAME = {"daffajr95"},
+    TRADE_USERNAME = {},
     TRADE_ITEM = {"Race Reroll", "Clan Reroll", "Mythical Chest", "Aura Crate", "Cosmetic Crate", "Trait Reroll", "Secret Chest"},
 
     -- Discord
